@@ -1,0 +1,24 @@
+:
+    - name: Checkout code
+          uses: actions/checkout@v4
+
+              - name: Set up Go
+                    # Use go.mod version or a recent stable one
+                    #     uses: actions/setup-go@v5
+                    #         with:
+                    #               go-version: '1.24'
+                    #
+                    #                 - name: Download Go modules
+                    #                     run: go mod download
+                    #
+                    #                       - name: Run Go Linter (Vet)
+                    #                           # Checks for suspicious constructs in the Go source code
+                    #                               run: go vet ./...
+                    #
+                    #                                 - name: Run Go Tests
+                    #                                     # Runs all unit tests
+                    #                                         run: go test -v ./...
+                    #
+                    #                                           - name: Build Executable for verification
+                    #                                               # Ensures the build process itself works
+                    #                                                   run: go build -o examtopicsdl ./main.go
